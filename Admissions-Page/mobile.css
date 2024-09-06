@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    flex-direction: column;
+}
+
+nav .first-nav-ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav .second-nav-ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav li {
+    margin: 1rem 0;
+}
+
+nav span {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pipe-sym {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    margin: 1.2rem auto;
+    width: 38%;
+}
+
+header ul {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header li {
+    margin: 1rem 0;
+}
+
+main .current-page ul {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#one h1 {
+    margin: 0.7rem
+}
+
+#one img {
+    width: 100%;
+}
+
+footer .footer-main-div {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+footer h2 {
+    margin: 6rem 0 2rem;
+}
+
+#f-1 {
+    width: 85vw;
+    height: 48vh;
+}
+
+.nav-last {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-last ul {
+    width: 50vw;
+}
+
+.nav-last a {
+    font-size: 1.6rem;
+}
+
+#two input {
+    font-size: 2rem;
+    width: 100%;
+}
+
+#f-1 img {
+    width: 70vw;
+}
+
+body nav ul {
+    max-width: 30vw;
+}

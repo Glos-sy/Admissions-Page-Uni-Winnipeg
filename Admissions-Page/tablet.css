@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    display: none;
+}
+
+main .current-page ul {
+    width: 56%;
+    margin: 0;
+    text-align: left;
+}
+
+main .current-page ul a {
+    font-size: 1.8rem;
+}
+
+#one img {
+    width: 122%;
+    margin-bottom: 6rem;
+}
+
+.main-div-section {
+    width: 110vw;
+}
+
+.red-nav {
+    display: block;
+    text-align: center;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+#two h1, #three h1, #four h1, #five h1, #six h1 {
+    font-size: 3.6rem;
+}
+
+#two p, #three p, #four p, #five p, #six p {
+    font-size: 2.5rem;
+}
+
+#two input {
+    font-size: 2rem;
+    width: 50%;
+}
+
+.sub-aside {
+    display: block;
+}
+
+#f-4 {
+    display: none;
+}
+
+.nav-last {
+    background-color: #99182c;
+}
+
+.nav-last ul {
+    width: 60%;
+}
+
+.nav-last a {
+    font-size: 1.6rem;
+}
+
+.red-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.red-nav span {
+    color: white;
+}
